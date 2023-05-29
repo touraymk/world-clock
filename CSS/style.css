@@ -3,8 +3,16 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  width: 62px;
+  height: 50px;
+  margin: 0;
+}
+
 h1 {
   text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 h2 {
@@ -19,6 +27,11 @@ select {
   padding: 5px;
   width: 100%;
 }
+ 
+a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
 
 .container {
   margin: 60px auto;
@@ -27,6 +40,11 @@ select {
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
 }
 
 .city {
@@ -58,6 +76,8 @@ select {
 
 footer {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
+  bottom: 52px;
+  position: relative;
 }
