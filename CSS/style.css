@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #e8c3dd;
   font-family: sans-serif;
 }
 
@@ -35,7 +35,7 @@ a {
 
 .container {
   margin: 60px auto;
-  max-width: 600px;
+  max-width: 500px;
   background: white;  
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -47,7 +47,7 @@ a {
   justify-content: center;
 }
 
-.city {
+.city{
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
@@ -60,6 +60,7 @@ a {
 }
 
 .date {
+  font-size: 14px;
   opacity: 0.7;
 }
 
